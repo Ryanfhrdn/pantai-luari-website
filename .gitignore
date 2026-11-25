@@ -5,6 +5,9 @@ desktop.ini
 .vscode/
 .idea/
 
+# Vercel local link state
+.vercel
+
 # Logs & temp
 *.log
 *.tmp
@@ -19,3 +22,4 @@ backend/build/
 .env
 application.properties
 application-local.properties
+
