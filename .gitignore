@@ -1,0 +1,21 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs & temp
+*.log
+*.tmp
+
+# Build output backend (Java)
+backend/target/
+backend/build/
+*.class
+
+# Secrets — jangan pernah commit kredensial database
+*.env
+.env
+application.properties
+application-local.properties

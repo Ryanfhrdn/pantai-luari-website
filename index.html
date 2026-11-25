@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Wisata Pantai Luari - Halmahera Utara</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header & Navbar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#beranda" class="logo">
+        <i class="fa-solid fa-water"></i>
+        <span>Pantai Luari</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+          <li><a href="#profil" class="nav-link">Profil</a></li>
+          <li><a href="#galeri" class="nav-link">Galeri</a></li>
+          <li><a href="#fasilitas" class="nav-link">Fasilitas</a></li>
+          <li><a href="#informasi" class="nav-link">Informasi Wisata</a></li>
+          <li><a href="#lokasi" class="nav-link">Lokasi</a></li>
+          <li><a href="#kontak" class="nav-link btn-nav">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Halaman / Seksi Beranda -->
+    <section id="beranda" class="hero-section">
+      <video class="hero-video" autoplay loop muted playsinline poster="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80">
+        <source src="assets/video_pantai_luari.mp4" type="video/mp4">
+        Browser Anda tidak mendukung pemutaran video HTML5.
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="badge-tag"><i class="fa-solid fa-location-dot"></i> Desa Luari, Halmahera Utara</span>
+        <h1>Selamat Datang di Wisata Pantai Luari</h1>
+        <p>Nikmati pesona hamparan pasir putih yang halus, air laut jernih kebiruan, dan keindahan panorama alam tropis di Maluku Utara.</p>
+        <div class="hero-buttons">
+          <a href="#profil" class="btn btn-primary"><i class="fa-solid fa-compass"></i> Lihat Profil</a>
+          <a href="#informasi" class="btn btn-secondary"><i class="fa-solid fa-circle-info"></i> Info Wisata</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Halaman / Seksi Profil -->
+    <section id="profil" class="section">
+      <div class="container">
+        <div class="section-title">
+          <span class="sub-title">Tentang Kami</span>
+          <h2>Profil Pantai Luari</h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="profil-grid">
+          <div class="profil-text">
+            <h3>Surga Tersembunyi di Halmahera Utara</h3>
+            <p><strong>Pantai Luari</strong> merupakan salah satu destinasi wisata bahari unggulan yang terletak di Desa Luari, Kecamatan Tobelo, Kabupaten Halmahera Utara, Provinsi Maluku Utara. Pantai ini terkenal dengan hamparan pasir putih bersih yang membentang luas serta ombak yang tenang, menjadikannya tempat ideal untuk bersantai dan berenang bersama keluarga.</p>
+            
+            <div class="profil-features">
+              <div class="profil-feature-item">
+                <i class="fa-solid fa-landmark feature-icon"></i>
+                <div>
+                  <h4>Sejarah & Keberadaan</h4>
+                  <p>Awalnya merupakan kawasan pesisir alami warga lokal Desa Luari, kini dikembangkan secara berkelanjutan oleh masyarakat setempat dan pengelola wisata untuk memperkenalkan keindahan pesisir Maluku Utara ke ranah nasional maupun internasional.</p>
+                </div>
+              </div>
+
+              <div class="profil-feature-item">
+                <i class="fa-solid fa-sun feature-icon"></i>
+                <div>
+                  <h4>Keindahan Alam</h4>
+                  <p>Pemandangan matahari terbit (sunrise) dan terbenam (sunset) yang spektakuler, perairan jernih dengan gradasi warna biru toska, serta pepohonan rindang di sepanjang pesisir pantai.</p>
+                </div>
+              </div>
+
+              <div class="profil-feature-item">
+                <i class="fa-solid fa-chart-line feature-icon"></i>
+                <div>
+                  <h4>Potensi Wisata Desa Luari</h4>
+                  <p>Menjadi penggerak ekonomi kreatif Desa Luari melalui sektor pariwisata, kuliner khas pesisir, kerajinan lokal, serta kegiatan konservasi lingkungan pantai.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="profil-image-wrapper">
+            <img src="assets/profil-pantai-luari.jpg"
+                 srcset="assets/profil-pantai-luari-900.jpg 900w, assets/profil-pantai-luari.jpg 1400w"
+                 sizes="(max-width: 992px) 100vw, 560px"
+                 width="1400" height="787"
+                 loading="lazy" decoding="async"
+                 alt="Pemandangan udara Pantai Luari — garis pantai berpasir putih, perkampungan Desa Luari, dan air laut biru jernih"
+                 class="profil-img">
+            <div class="experience-card">
+              <span class="exp-num">100%</span>
+              <span class="exp-text">Keindahan Alami & Asri</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Halaman / Seksi Galeri -->
+    <section id="galeri" class="section bg-light">
+      <div class="container">
+        <div class="section-title">
+          <span class="sub-title">Dokumentasi</span>
+          <h2>Galeri Foto Pantai Luari</h2>
+          <p>Klik pada foto untuk memperbesar tampilan</p>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="galeri-grid">
+          <div class="galeri-item" data-src="assets/galeri/01-ombak-pasir-putih.jpg" data-caption="Ombak kecil berbuih putih menyapu pasir hangat — ketenangan khas pagi di Pantai Luari." style="--pos: 50% 55%;">
+            <img src="assets/galeri/01-ombak-pasir-putih-thumb.jpg" width="900" height="506" loading="lazy" decoding="async" alt="Buih ombak putih menyapu pasir di Pantai Luari">
+            <div class="galeri-overlay">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+              <span>Buih Ombak &amp; Pasir Putih</span>
+            </div>
+          </div>
+
+          <div class="galeri-item wide" data-src="assets/galeri/02-teluk-tersembunyi.jpg" data-caption="Teluk berpasir putih yang terjaga pepohonan rindang dan perbukitan hijau — permata tersembunyi di Halmahera Utara." style="--pos: 50% 50%;">
+            <img src="assets/galeri/02-teluk-tersembunyi-thumb.jpg" width="900" height="506" loading="lazy" decoding="async" alt="Teluk tersembunyi berpasir putih dengan air biru jernih di Pantai Luari">
+            <div class="galeri-overlay">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+              <span>Teluk Tersembunyi</span>
+            </div>
+          </div>
+
+          <div class="galeri-item" data-src="assets/galeri/03-panorama-teluk.jpg" data-caption="Hamparan laut biru jernih dengan perahu nelayan tradisional, dibingkai pepohonan tropis dan langit cerah." style="--pos: 50% 40%;">
+            <img src="assets/galeri/03-panorama-teluk-thumb.jpg" width="900" height="506" loading="lazy" decoding="async" alt="Panorama teluk biru dengan perahu nelayan dan pepohonan tropis">
+            <div class="galeri-overlay">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+              <span>Panorama Teluk</span>
+            </div>
+          </div>
+
+          <div class="galeri-item" data-src="assets/galeri/04-ketapang-warung.jpg" data-caption="Pohon ketapang berdaun lebat menaungi tepian pantai, ditemani payung warna-warni warung warga." style="--pos: 68% 50%;">
+            <img src="assets/galeri/04-ketapang-warung-thumb.jpg" width="900" height="506" loading="lazy" decoding="async" alt="Pohon rindang pesisir dan warung dengan payung warna-warni di tepi pantai">
+            <div class="galeri-overlay">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+              <span>Rindang Pepohonan Pesisir</span>
+            </div>
+          </div>
+
+          <div class="galeri-item wide" data-src="assets/galeri/05-sore-rindang.jpg" data-caption="Pengunjung bersantai di bawah kanopi pepohonan saat cahaya sore menghangatkan pasir pantai." style="--pos: 50% 50%;">
+            <img src="assets/galeri/05-sore-rindang-thumb.jpg" width="900" height="506" loading="lazy" decoding="async" alt="Pengunjung bersantai di bawah pohon saat sore di Pantai Luari">
+            <div class="galeri-overlay">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+              <span>Sore yang Damai</span>
+            </div>
+          </div>
+
+          <div class="galeri-item" data-src="assets/galeri/06-senja-keemasan.jpg" data-caption="Matahari terbenam keemasan di ufuk, memantul tenang di permukaan laut — penutup hari yang sempurna." style="--pos: 50% 50%;">
+            <img src="assets/galeri/06-senja-keemasan-thumb.jpg" width="900" height="900" loading="lazy" decoding="async" alt="Senja keemasan dengan matahari terbenam di Pantai Luari">
+            <div class="galeri-overlay">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+              <span>Senja Keemasan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Lightbox Galeri -->
+    <div id="imageModal" class="modal">
+      <span class="modal-close">&times;</span>
+      <img class="modal-content" id="modalImg" alt="Foto Galeri">
+      <div id="modalCaption" class="modal-caption"></div>
+    </div>
+
+    <!-- 4. Halaman / Seksi Fasilitas -->
+    <section id="fasilitas" class="section">
+      <div class="container">
+        <div class="section-title">
+          <span class="sub-title">Kenyamanan Pengunjung</span>
+          <h2>Fasilitas Wisata Pantai Luari</h2>
+          <p>Fasilitas pendukung yang tersedia di area pantai untuk kenyamanan Anda</p>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="grid-4" id="fasilitasGrid">
+          <div class="fasilitas-card">
+            <div class="fasilitas-icon"><i class="fa-solid fa-square-parking"></i></div>
+            <h3>Area Parkir Luas</h3>
+            <p>Tersedia area parkir yang aman dan memadai untuk kendaraan roda dua (motor) maupun roda empat (mobil/bus).</p>
+          </div>
+
+          <div class="fasilitas-card">
+            <div class="fasilitas-icon"><i class="fa-solid fa-restroom"></i></div>
+            <h3>Toilet & Kamar Bilas</h3>
+            <p>Fasilitas toilet umum dan kamar ganti/bilas bersih setelah Anda menikmati aktivitas berenang di laut.</p>
+          </div>
+
+          <div class="fasilitas-card">
+            <div class="fasilitas-icon"><i class="fa-solid fa-umbrella-beach"></i></div>
+            <h3>Tempat Istirahat</h3>
+            <p>tempat duduk di bawah pepohonan rindang untuk bersantai bersama keluarga.</p>
+          </div>
+
+          <div class="fasilitas-card">
+            <div class="fasilitas-icon"><i class="fa-solid fa-utensils"></i></div>
+            <h3>Warung Makan & Minum</h3>
+            <p>Menyajikan aneka hidangan kuliner khas pesisir, kelapa muda segar, ikan bakar, dan makanan ringan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Halaman / Seksi Informasi Wisata -->
+    <section id="informasi" class="section bg-light">
+      <div class="container">
+        <div class="section-title">
+          <span class="sub-title">Panduan Pengunjung</span>
+          <h2>Informasi Wisata</h2>
+          <p>Informasi penting seputar lokasi, jam operasional, tiket, dan aturan kunjungan</p>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="info-cards-grid">
+          <!-- Card Lokasi -->
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="info-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+              <h3>Lokasi Wisata</h3>
+            </div>
+            <p>Desa Luari, Kecamatan Tobelo, Kabupaten Halmahera Utara, Provinsi Maluku Utara.</p>
+          </div>
+
+          <!-- Card Jam Operasional -->
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+              <h3>Jam Operasional</h3>
+            </div>
+            <p><strong>Setiap Hari:</strong> 24/7 WIT</p>
+            <span class="note-tag"><i class="fa-solid fa-circle-info"></i> Jam buka dapat berubah. Hubungi Pengelola untuk kepastian jadwal.</span>
+          </div>
+
+          <!-- Card Harga Tiket -->
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="info-icon"><i class="fa-solid fa-ticket"></i></div>
+              <h3>Harga Tiket Masuk</h3>
+            </div>
+            <p><strong>Motor: Rp.10.000 <br> mobil: Rp.20.000</strong></p>
+            <span class="note-tag"><i class="fa-solid fa-phone"></i> Hubungi Pengelola</span>
+          </div>
+
+          <!-- Card Biaya Parkir -->
+          <div class="info-card">
+            <div class="info-card-header">
+              <div class="info-icon"><i class="fa-solid fa-car"></i></div>
+              <h3>Biaya Parkir</h3>
+            </div>
+            <ul class="info-list">
+              <li><i class="fa-solid fa-motorcycle"></i> Motor: Sudah termasuk dengan tiket masuk</li>
+              <li><i class="fa-solid fa-car-side"></i> Mobil: Sudah termasuk dengan tiket masuk</li>
+            </ul>
+            <span class="note-tag"><i class="fa-solid fa-phone"></i> Hubungi Pengelola</span>
+          </div>
+        </div>
+
+        <!-- Aturan Pengunjung -->
+        <div class="rules-box">
+          <h3><i class="fa-solid fa-shield-halved"></i> Aturan & Tata Tertib Pengunjung</h3>
+          <div class="rules-grid">
+            <div class="rule-item">
+              <i class="fa-solid fa-broom rule-icon"></i>
+              <span>Menjaga kebersihan area pantai.</span>
+            </div>
+            <div class="rule-item">
+              <i class="fa-solid fa-trash-can-arrow-up rule-icon"></i>
+              <span>Tidak membuang sampah sembarangan (Gunakan tempat sampah).</span>
+            </div>
+            <div class="rule-item">
+              <i class="fa-solid fa-hand-holding-heart rule-icon"></i>
+              <span>Menjaga dan tidak merusak fasilitas wisata.</span>
+            </div>
+            <div class="rule-item">
+              <i class="fa-solid fa-tree rule-icon"></i>
+              <span>Menjaga serta merawat kelestarian lingkungan pantai.</span>
+            </div>
+            <div class="rule-item">
+              <i class="fa-solid fa-user-check rule-icon"></i>
+              <span>Mematuhi seluruh arahan dan imbauan pengelola wisata.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Halaman / Seksi Lokasi -->
+    <section id="lokasi" class="section">
+      <div class="container">
+        <div class="section-title">
+          <span class="sub-title">Petunjuk Arah</span>
+          <h2>Peta Lokasi Pantai Luari</h2>
+          <p>Alamat Lengkap: Desa Luari, Kabupaten Halmahera Utara, Provinsi Maluku Utara</p>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="map-wrapper">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.475458920155!2d128.016667!3d1.766667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x329a430000000001%3A0x0!2sDesa%20Luari%2C%20Halmahera%20Utara!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" 
+            width="100%" 
+            height="450" 
+            style="border:0; border-radius: 12px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Halaman / Seksi Kontak -->
+    <section id="kontak" class="section bg-light">
+      <div class="container">
+        <div class="section-title">
+          <span class="sub-title">Hubungi Kami</span>
+          <h2>Kontak & Informasi Pengelola</h2>
+          <p>Silakan hubungi pihak pengelola untuk pertanyaan, konfirmasi kunjungan, atau kerja sama</p>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="kontak-grid">
+          <div class="kontak-info">
+            <div class="kontak-card">
+              <div class="kontak-icon"><i class="fa-solid fa-user-tie"></i></div>
+              <div>
+                <h4>Pengelola Wisata</h4>
+                <p>Masyarakat setempat</p>
+              </div>
+            </div>
+
+            <div class="kontak-card">
+              <div class="kontak-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <div>
+                <h4>Nomor Telepon / WhatsApp</h4>
+                <p><a href="https://wa.me/6285651442654" target="_blank" rel="noopener">+62 856-5144-2654 (Hubungi Pengelola)</a></p>
+              </div>
+            </div>
+
+            <div class="kontak-card">
+              <div class="kontak-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <h4>Alamat Lengkap</h4>
+                <p>Desa Luari, Kecamatan Tobelo, Kabupaten Halmahera Utara, Maluku Utara</p>
+              </div>
+            </div>
+
+            <div class="kontak-card">
+              <div class="kontak-icon"><i class="fa-solid fa-share-nodes"></i></div>
+              <div>
+                <h4>Media Sosial</h4>
+                <div class="social-links">
+                  <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/pantailuari?jplx=MTA0d25leTAxNWM4NA==" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulir Pesan Kontak -->
+          <div class="kontak-form-wrapper">
+            <h3>Kirim Pesan</h3>
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+              </div>
+              <div class="form-group">
+                <label for="telepon">Nomor WhatsApp / Email</label>
+                <input type="text" id="telepon" name="telepon" placeholder="Nomor HP / Email" required>
+              </div>
+              <div class="form-group">
+                <label for="pesan">Pesan / Pertanyaan</label>
+                <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pertanyaan Anda mengenai Pantai Luari..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block"><i class="fa-brands fa-whatsapp"></i> Kirim via WhatsApp</button>
+              <p class="form-hint"><i class="fa-solid fa-circle-info"></i> Pesan akan terbuka di WhatsApp dan dikirim ke pengelola di nomor <strong>+62 856-5144-2654</strong>.</p>
+            </form>
+            <div id="formStatus" class="form-status"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo">
+        <i class="fa-solid fa-water"></i> Pantai Luari
+      </div>
+      <p>© 2026 Wisata Pantai Luari – Desa Luari, Halmahera Utara.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
